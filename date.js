@@ -5,12 +5,11 @@
 
 // const formattedToday = dd + '/' + mm + '/' + yyyy;
 
-function formattedToday(){
-    var d = new Date();
-   var a = d.getDay(); 
-   var b = d.getMonth();
-   var f = d.getFullYear();
-     return `${a}/${b}/${f}` ;
+function formattedToday(date){
+    var d = new Date(date);
+   var day = d.getDate(); 
+   var month = d.getMonth()+1;
+   var year= d.getFullYear();
+     return `${year}/${month}/${day}` ;
 };
-console.log(formattedToday());
-
+console.log(formattedToday('2023-12-05'));
