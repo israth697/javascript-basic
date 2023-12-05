@@ -20,14 +20,14 @@
 
 
 //do while loop
-var i = 1;                      // initialize
-do {                            // enters cycle at least once
-i *= 5;                     // increment to avoid infinite loop
-document.write(i + ", ");   // output
-} while (i < 100)
+// var i = 1;                      // initialize
+// do {                            // enters cycle at least once
+// i *= 5;                     // increment to avoid infinite loop
+// document.write(i + ", ");   // output
+// } while (i < 100)
 
 
-// var a=['moneyplant','top','stone','roses','fruits'];
-// console.log(a[1]);
+var a=['moneyplant','top','stone','roses','fruits'];
+console.log(a[1]);
     
 
