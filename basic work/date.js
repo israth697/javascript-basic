@@ -13,3 +13,4 @@ function formattedToday(date){
      return `${year}/${month}/${day}` ;
 };
 console.log(formattedToday('2023-12-05'));
+
